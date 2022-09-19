@@ -1,0 +1,136 @@
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: #990066;
+  text-align: center;
+  margin: 0px;
+  padding: 32px;
+}
+
+header {
+  background-color: #3e3f41;
+}
+
+.product-name,
+.product-description {
+  border: 1px dashed #bababa;
+  border-radius: 5px;
+  width: 100%;
+  transition: border-color 0.2s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.product-name {
+  padding: 10px 20px;
+  font-size: 32px;
+}
+
+.product-name:hover,
+.product-description:hover {
+  border-color: #dc3545;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #bbb;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #bbb;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #bbb;
+}
+
+.product-description {
+  padding: 5px 10px;
+  height: 200px;
+}
+
+footer {
+  background-color: #3e3f41;
+}
+
+.footer-dark {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+input::file-selector-button {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+
+.save-product {
+  margin-top: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-bar input {
+  padding: 5px 10px 5px 40px;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.search-bar img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 10px;
+  pointer-events: none;
+}
+
+section.listado-de-productos,
+section.mas-vendidos {
+  margin-top: 20px;
+}
+
+article.producto {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+article.producto > img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+article.producto.short > img {
+  height: 80px;
+}
+
+article.producto > div {
+  flex-grow: 1;
+}
+
+article.producto a {
+  margin-right: 40px;
+}
+
+article.producto a img {
+  width: 24px;
+  height: 24px;
+}
+
+main.mis-productos h2 {
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 20px;
+  font-weight: normal;
+  color: #666;
+}
